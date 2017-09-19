@@ -3162,6 +3162,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="96.52" y1="96.52" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="JP6" gate="G$1" pin="2"/>
 <label x="93.98" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP6" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="99.06" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="121.92" x2="134.62" y2="127" width="0.1524" layer="91"/>

@@ -1037,6 +1037,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="5.0292" y1="20.9042" x2="5.0038" y2="20.9296" width="0.254" layer="1"/>
 <via x="5.588" y="23.876" extent="1-16" drill="0.508"/>
 <via x="12.7" y="5.588" extent="1-16" drill="0.508"/>
+<contactref element="JP6" pad="1"/>
 </signal>
 <signal name="AREF">
 <contactref element="C1" pad="2"/>

@@ -3547,6 +3547,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="C2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C13" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
 <part name="GND25" library="SparkFun" deviceset="GND" device=""/>
+<part name="C4" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3615,6 +3617,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </instance>
 <instance part="C13" gate="G$1" x="93.98" y="132.08"/>
 <instance part="GND25" gate="1" x="93.98" y="121.92"/>
+<instance part="C4" gate="G$1" x="104.14" y="132.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="105.156" y="132.207" size="1.778" layer="95"/>
+<attribute name="VALUE" x="105.156" y="127.381" size="1.778" layer="96"/>
+</instance>
+<instance part="GND2" gate="1" x="104.14" y="121.92"/>
 </instances>
 <busses>
 </busses>
@@ -3682,6 +3689,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="93.98" y1="124.46" x2="93.98" y2="127" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="-"/>
 <pinref part="GND25" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="104.14" y1="124.46" x2="104.14" y2="127" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -3828,6 +3840,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="C13" gate="G$1" pin="+"/>
 <wire x1="93.98" y1="134.62" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
 <label x="93.98" y="137.16" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="134.62" x2="104.14" y2="137.16" width="0.1524" layer="91"/>
+<label x="104.14" y="137.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="D9" class="0">

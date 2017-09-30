@@ -187,11 +187,11 @@
 <text x="10.414" y="28.956" size="0.6096" layer="21" font="vector" ratio="13">0.1uF</text>
 <text x="5.334" y="28.702" size="1.016" layer="22" font="vector" ratio="16" rot="MR180">Tribesat</text>
 <text x="14.224" y="24.892" size="0.8128" layer="22" font="vector" ratio="16" rot="MR0">ATmega328P QFP</text>
-<text x="9.398" y="22.86" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center">Test
-Desgine 
-V1.0</text>
 <text x="11.43" y="25.4" size="0.6096" layer="21" font="vector" ratio="13" rot="R90">10uF</text>
 <text x="3.81" y="24.892" size="0.6096" layer="21" font="vector" ratio="13">0.1uF</text>
+<text x="9.398" y="22.86" size="0.8128" layer="22" font="vector" ratio="17" rot="MR0" align="center">Test
+Design
+V1.0</text>
 </plain>
 <libraries>
 <library name="SparkFun">

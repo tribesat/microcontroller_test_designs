@@ -2,7 +2,7 @@ component/value, size, quanity, digikey part number
 --------------------------------------------------------
 ATmega328P, 32-TQFP, 1, ATMEGA328P-AURCT-ND
 8MHz Resonator, 3-SMD, 1, 490-1195-1-ND
-0.1uF Capacitor, 0603, 4, 478-5266-1-ND
+0.1uF Capacitor, 0603, 4, 311-1088-1-ND
 10uF Polarized Capacitor, 1206, 1, 478-1654-1-ND
 10k Resistor, 0603, 1, 311-10.0KHRCT-ND
 330 Resistor, 0603, 1, 311-330HRCT-ND
